@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17675ABD1CFE8656008DF7CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17675ABC1CFE8656008DF7CC /* main.m */; };
+		17675AC01CFE8656008DF7CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17675ABF1CFE8656008DF7CC /* AppDelegate.m */; };
+		17675AC21CFE8656008DF7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17675AC11CFE8656008DF7CC /* Assets.xcassets */; };
+		17675AC51CFE8656008DF7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17675AC31CFE8656008DF7CC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17675AB81CFE8655008DF7CC /* ICEAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICEAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17675ABC1CFE8656008DF7CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17675ABE1CFE8656008DF7CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17675ABF1CFE8656008DF7CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17675AC11CFE8656008DF7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17675AC41CFE8656008DF7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17675AC61CFE8656008DF7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17675AB51CFE8655008DF7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17675AAF1CFE8655008DF7CC = {
+			isa = PBXGroup;
+			children = (
+				17675ABA1CFE8655008DF7CC /* ICEAlertView */,
+				17675AB91CFE8655008DF7CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17675AB91CFE8655008DF7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17675AB81CFE8655008DF7CC /* ICEAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17675ABA1CFE8655008DF7CC /* ICEAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				17675ABE1CFE8656008DF7CC /* AppDelegate.h */,
+				17675ABF1CFE8656008DF7CC /* AppDelegate.m */,
+				17675AC11CFE8656008DF7CC /* Assets.xcassets */,
+				17675AC31CFE8656008DF7CC /* LaunchScreen.storyboard */,
+				17675AC61CFE8656008DF7CC /* Info.plist */,
+				17675ABB1CFE8656008DF7CC /* Supporting Files */,
+			);
+			path = ICEAlertView;
+			sourceTree = "<group>";
+		};
+		17675ABB1CFE8656008DF7CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17675ABC1CFE8656008DF7CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17675AB71CFE8655008DF7CC /* ICEAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17675AC91CFE8656008DF7CC /* Build configuration list for PBXNativeTarget "ICEAlertView" */;
+			buildPhases = (
+				17675AB41CFE8655008DF7CC /* Sources */,
+				17675AB51CFE8655008DF7CC /* Frameworks */,
+				17675AB61CFE8655008DF7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICEAlertView;
+			productName = ICEAlertView;
+			productReference = 17675AB81CFE8655008DF7CC /* ICEAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17675AB01CFE8655008DF7CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ICE;
+				TargetAttributes = {
+					17675AB71CFE8655008DF7CC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 17675AB31CFE8655008DF7CC /* Build configuration list for PBXProject "ICEAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17675AAF1CFE8655008DF7CC;
+			productRefGroup = 17675AB91CFE8655008DF7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17675AB71CFE8655008DF7CC /* ICEAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17675AB61CFE8655008DF7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17675AC21CFE8656008DF7CC /* Assets.xcassets in Resources */,
+				17675AC51CFE8656008DF7CC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17675AB41CFE8655008DF7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17675AC01CFE8656008DF7CC /* AppDelegate.m in Sources */,
+				17675ABD1CFE8656008DF7CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17675AC31CFE8656008DF7CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17675AC41CFE8656008DF7CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17675AC71CFE8656008DF7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17675AC81CFE8656008DF7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17675ACA1CFE8656008DF7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ICEAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.ICEAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17675ACB1CFE8656008DF7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ICEAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.ICEAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17675AB31CFE8655008DF7CC /* Build configuration list for PBXProject "ICEAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17675AC71CFE8656008DF7CC /* Debug */,
+				17675AC81CFE8656008DF7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17675AC91CFE8656008DF7CC /* Build configuration list for PBXNativeTarget "ICEAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17675ACA1CFE8656008DF7CC /* Debug */,
+				17675ACB1CFE8656008DF7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17675AB01CFE8655008DF7CC /* Project object */;
+}
