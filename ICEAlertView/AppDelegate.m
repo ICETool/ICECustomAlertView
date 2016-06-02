@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ICEViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +20,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    ICEViewController *vc = [[ICEViewController alloc] init];
+    self.window.rootViewController = vc;
+    
     return YES;
 }
 
